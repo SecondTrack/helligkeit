@@ -1,0 +1,7 @@
+// Helligkeit (Brightness) — Deutsch
+
+// Titel
+"Brightness" = "Helligkeit";
+
+// Hinweise
+"Sets the system brightness directly — stays after closing." = "Stellt die System-Helligkeit direkt ein — bleibt auch nach dem Schließen.";

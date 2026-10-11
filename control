@@ -1,0 +1,9 @@
+Package: de.mesh.light
+Name: Helligkeit
+Version: 0.1.0
+Architecture: iphoneos-arm
+Description: Helligkeitsregler mit Presets - direkt die Systemhelligkeit einstellen
+Maintainer: Second Track
+Author: Second Track
+Section: Utilities
+Depends: firmware (>= 6.0)

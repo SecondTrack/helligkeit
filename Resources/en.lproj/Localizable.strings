@@ -1,0 +1,7 @@
+// Helligkeit (Brightness) — English (identity / fallback)
+
+// Title
+"Brightness" = "Brightness";
+
+// Hints
+"Sets the system brightness directly — stays after closing." = "Sets the system brightness directly — stays after closing.";
