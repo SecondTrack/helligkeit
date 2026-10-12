@@ -1,38 +1,26 @@
 # Brightness
 
-**Brightness with presets**
+**Set the screen brightness with one big slider and four presets – and it stays set.**
 
-Large slider plus presets for 10, 30, 60 and 100 %. The value stays after locking.
+On iOS 6 the brightness slider is buried in Settings, and changing `UIScreen.brightness` from an app gets undone by SpringBoard the next time you unlock. This app also writes the value to SpringBoard's own preference and tells it to reload, so the setting survives locking.
 
-## Features
+## What it can do
 
-- Large slider
-- Presets for 10, 30, 60 and 100 %
-- Value stays after locking
+- One large slider and presets for 10, 30, 60 and 100 %.
+- A sun icon that grows with the brightness.
+- That's it – one screen, opens instantly.
 
 ## Runs on
 
-iOS 6.1.6 · jailbroken iPod touch
+iOS 6.1.6 · jailbroken iPod touch 4
 
 ## Install
 
-The easiest way is the **[Reboot App Store](https://github.com/SecondTrack/reboot)** right on the iPod.
-By hand: download the `.deb` from the [latest release](https://github.com/SecondTrack/helligkeit/releases/latest), install it with `dpkg -i`, then run `uicache`.
+Easiest via the **[Reboot App Store](https://github.com/SecondTrack/reboot)** right on the iPod. By hand: `.deb` from the [latest release](https://github.com/SecondTrack/helligkeit/releases/latest), `dpkg -i`, then `uicache`.
 
-## Build it yourself
-
-With [Theos](https://theos.dev) (iOS SDK with armv7):
-
-```sh
-make package
-```
-
-## Part of Reboot
-
-This app is part of **Reboot** by **Second Track** – new apps for old iPods.
-All apps: [SecondTrack](https://github.com/SecondTrack).
+Build it yourself with [Theos](https://theos.dev): `make package` (iOS 6.0+, armv7).
 
 ## License
 
-GPL-3.0 – see [LICENSE](LICENSE). Bundled libraries under `vendor/` keep their own licenses.
+GPL-3.0 – see [LICENSE](LICENSE).
 Not affiliated with Apple. iPod is a trademark of Apple Inc.
