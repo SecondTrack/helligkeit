@@ -1,4 +1,4 @@
-# Brightness
+# Lux
 
 **Set the screen brightness with one big slider and four presets – and it stays set.**
 
