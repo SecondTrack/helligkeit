@@ -12,7 +12,7 @@ On iOS 6 the brightness slider is buried in Settings, and changing `UIScreen.bri
 
 ## Runs on
 
-iOS 6.1.6 · jailbroken iPod touch 4
+iOS 5.0 to 6.1 · jailbroken iPod touch 3G and 4G (iOS 5 not yet tested on a device)
 
 ## Install
 
