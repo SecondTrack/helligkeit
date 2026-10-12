@@ -1,8 +1,8 @@
 {
   "id": "helligkeit",
-  "name": "Helligkeit",
-  "short": "Helligkeit mit Presets",
-  "category": "Werkzeuge",
+  "name": "Brightness",
+  "short": "Brightness with presets",
+  "category": "Tools",
   "status": "da",
   "ios": [
     "6.1.6"
@@ -12,5 +12,23 @@
   "repo": "SecondTrack/helligkeit",
   "requires": "",
   "license": "GPL-3.0",
-  "install": "GitHub-Release: neuestes Release, Anhang *.deb"
+  "install": "GitHub release: latest release, *.deb asset",
+  "bundle": "de.mesh.light",
+  "text": "Large slider plus presets for 10, 30, 60 and 100 %. The value stays after locking.",
+  "features": [
+    "Large slider",
+    "Presets for 10, 30, 60 and 100 %",
+    "Value stays after locking"
+  ],
+  "icon": "https://raw.githubusercontent.com/SecondTrack/helligkeit/main/Resources/Icon@2x.png",
+  "private": false,
+  "name_de": "Helligkeit",
+  "short_de": "Helligkeit mit Presets",
+  "category_de": "Werkzeuge",
+  "text_de": "Großer Regler plus Presets für 10, 30, 60 und 100 %. Der Wert bleibt auch nach dem Sperren.",
+  "features_de": [
+    "Großer Regler",
+    "Presets für 10, 30, 60 und 100 %",
+    "Wert bleibt nach dem Sperren"
+  ]
 }
