@@ -1,0 +1,9 @@
+Package: de.mesh.light
+Name: Lux
+Version: 0.1.3
+Architecture: iphoneos-arm
+Description: Helligkeitsregler mit Presets - direkt die Systemhelligkeit einstellen
+Maintainer: Second Track
+Author: Second Track
+Section: Utilities
+Depends: firmware (>= 5.0)
